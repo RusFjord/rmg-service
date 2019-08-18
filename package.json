@@ -1,0 +1,27 @@
+{
+  "name": "rmg-service",
+  "version": "1.0.0",
+  "description": "Серверные сервисы для компании RMG",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RusFjord/rmg-service.git"
+  },
+  "keywords": [
+    "services",
+    "nodejs",
+    "express"
+  ],
+  "author": {
+    "name" : "Fedor Endovitskiy",
+    "email" : "f.endovitskiy@ulteam8.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RusFjord/rmg-service/issues"
+  },
+  "homepage": "https://github.com/RusFjord/rmg-service#readme"
+}
