@@ -16,12 +16,15 @@
     "express"
   ],
   "author": {
-    "name" : "Fedor Endovitskiy",
-    "email" : "f.endovitskiy@ulteam8.ru"
+    "name": "Fedor Endovitskiy",
+    "email": "f.endovitskiy@ulteam8.ru"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RusFjord/rmg-service/issues"
   },
-  "homepage": "https://github.com/RusFjord/rmg-service#readme"
+  "homepage": "https://github.com/RusFjord/rmg-service#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
