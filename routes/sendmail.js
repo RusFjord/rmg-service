@@ -6,4 +6,8 @@ router.post('/sendmail', (req, res) => {
     res.send('Works!');
 });
 
+router.get('/sendmail', (req, res) => {
+    res.send("It's work!");
+});
+
 module.exports = router;
