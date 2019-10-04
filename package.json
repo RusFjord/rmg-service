@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/RusFjord/rmg-service#readme",
   "dependencies": {
+    "emailjs": "^2.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.6.9",
     "nodemailer": "^6.3.0"

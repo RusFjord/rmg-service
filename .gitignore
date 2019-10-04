@@ -68,5 +68,7 @@ typings/
 
 .idea/
 
+*.set
+
 
 
