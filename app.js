@@ -1,5 +1,4 @@
 const express = require('express');
-const mongoose = require('mongoose');
 
 const sendmail = require('./routes/sendmail');
 const page404 = require('./routes/page404');
