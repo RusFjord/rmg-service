@@ -7,7 +7,7 @@ router.post('/sendmail', (req, res) => {
 	const emailSet = fs.readFileSync('settings/email.set', 'utf8');
     const config = JSON.parse(emailSet);
 
-	const text = `Получено обращение с сайта\rИмя: ${data.name}\rТелефон: ${data.phone}\rЭл. почта: ${data.email}\rОрганизация: ${data.organization}\rРегион: ${data.region}`;
+	const text = `Получено обращение с сайта\nИмя: ${data.name}\nТелефон: ${data.phone}\nЭл. почта: ${data.email}\nОрганизация: ${data.organization}\nРегион: ${data.region}`;
     const server = emailjs.server.connect(config.settings);
     const result = config.emails.filter((elem) => {
         if (elem.region === data.region) {
